@@ -1,0 +1,157 @@
+body{
+	margin:auto;
+}
+header{
+	margin: 20px 0px;
+}
+li{
+	cursor: pointer;
+}
+.nav-toggle-btn{
+	display: none;
+}
+
+@media (max-width: 995px)
+{
+	.nav-toggle-btn{
+		display: inline;
+		float:right;
+	}
+}
+@media (max-width: 995px)
+{
+	.top-menu{
+		display: none;
+	}
+}
+.top-menu{
+	float:right;
+}
+.top-menu-item{
+	list-style: none;
+	float:left;
+	margin:0px 20px;
+}
+.top-menu-item a{
+	color:gray;
+}
+.top-menu-itme a:hover{
+	color:blue;
+}
+.top-menu-item :hover{
+	text-decoration: none;
+}
+.banner{
+	background-image:url("../img/slider.png");
+	background-size:100% 100%;
+	padding-bottom:30%;
+
+}
+.navbar-bottom{
+	list-style: none;
+	float:left;
+}
+.section-search{
+	margin:20px 0px;
+	position: relative;
+}
+.section-search input[type='text'], input[type='number']{
+	width:97%;
+	background-color: rgb(240,240,240);
+	border: none;
+}
+.section-search select{
+	width:97%;
+}
+.search_button{
+	background:url("../img/search_button.png");
+	width:172px;
+	height:34px;
+	margin-top:68px;
+}
+.search-tab{
+	background-color:white;
+	position: absolute;
+	top:-60px;
+	width:110px;
+	height: 39px;
+	text-align: center;
+	color:rgb(18,188,243);
+	font-size: large;
+	cursor: pointer;
+}
+.img-view li{
+	list-style: none;
+}
+
+.img-view{
+	width:100%;
+	background-color:rgb(245,245,245);
+}
+.img-view ul{
+	display: inline-block;
+}
+.img-view .row{
+	margin-top:35px;
+}
+.img-view a:hover{
+
+}
+.article{
+	margin-left: 10px;
+}
+.article p{
+	font-size: 10px;
+}
+.discover{
+	display: inline;
+	list-style: none;
+	padding-left:0px;
+}
+.discover li{
+	/*margin-right:5px;*/
+	color:gray;
+	display: inline;
+	width:100%;
+	float:left;
+	padding-top: 15px;
+}
+.discover li:before {
+    font-family: "FontAwesome";
+    content: "\f04b";
+    color: #d9d9d9;
+}
+.discover li:hover{
+	color:#01b7f2;
+}
+.discover li:hover:before {
+    color: #01b7f2;
+}
+footer .row{
+	margin:50px 0;
+}
+.footer-2{
+	background-color:rgb(245,245,245);
+}
+
+.thumb{
+	float: left;
+	padding:20px;
+}
+.footer_mark{
+	float:right;
+}
+a{
+    cursor:pointer;
+}
+.footer_mark a{
+    cursor: pointer;
+    background-image:url("../img/below-icon.png");
+	padding:10px 43px 10px 0;
+	background-size: 28px 27px;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+.nav-toggle-btn{
+	background-image: url("../img/navbar-toggle-button.png");
+}
